@@ -1,0 +1,201 @@
+@import url('https://fonts.cdnfonts.com/css/katana');
+@import url('https://fonts.cdnfonts.com/css/ninja-naruto');               
+
+body {
+  font-family: 'Katana', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('samurai2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff; /* Set text color to white for better contrast */
+}
+
+.logo{
+  text-align: left;
+  width: 100%;
+  height: 60px;
+  margin: 0px;
+  padding-top: 30px;
+  padding-left: 30px;
+  background-color: rgba(0,0,0,0.3);
+  position: fixed;
+  z-index: 100;
+}
+span{
+  color: lightsalmon;
+}
+.navbar {
+  position: fixed;
+  top: 35px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 20px;
+  font-size: 17px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: lightblue; /* White text color */
+  font-weight: bold;
+  transition: color 0.3s ease;
+  background: linear-gradient(to right, red, rgb(241, 0, 0)); /* Background gradient */
+  color: transparent; /* Make text transparent */
+  -webkit-background-clip: text; /* Clip background to text (WebKit) */
+  background-clip: text;
+  font-family: 'Ninja Naruto', sans-serif;
+}
+
+.navbar a:hover {
+  color: goldenrod;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 15px;
+  padding: 2px;
+}
+section {
+  padding: 100px;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  background: linear-gradient(to right, red, rgb(241, 0, 0)); /* Background gradient */
+  color: transparent; /* Make text transparent */
+  -webkit-background-clip: text; /* Clip background to text (WebKit) */
+  background-clip: text;
+  font-family: 'Ninja Naruto', sans-serif;
+}
+
+.profile {
+  margin-top: 20px;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.slogan {
+  margin-top: 30px;
+  font-size: 50px;
+  font-style: italic;
+  color: darkgoldenrod; /* Change color for slogan */
+  font-family: 'Katana', sans-serif;
+}
+
+.bg-1,.bg-3{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  font-size: 2em;
+  color:#fff;
+  text-shadow: 2px 2px 2px #000;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-1{
+  background-image: url("samurai4.jpg");
+  width:100%;
+  height:160vh;
+}
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 800px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.card p {
+  margin-top: 10px;
+  color: #555;
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 700px) {
+  .projects{
+      grid-template-columns: 1fr; /* Change to a single column for small screens */
+  }
+  .card{
+      height: 200px;
+      width: 300px;
+  }
+  .card img {
+    width: none;
+    border-radius: 5px;
+  }
+  
+  .card h2 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .card p {
+    margin-top: 10px;
+    color: #555;
+    font-size: 20px;
+  }
+  .bg-1{
+    height: 1100px;
+  }
+  img{
+    width: 50%;
+    height: 50%;
+  }
+  .logo{
+    font-size: 25px;
+  }
+}
+
+.bgtext{
+  background-image: url("background2.jpg");
+  width:100%;
+  height: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.bg-3{
+  background-image: url("samurai3.jpg");
+  width:100%;
+  height:100vh;
+}
+
+
+  
