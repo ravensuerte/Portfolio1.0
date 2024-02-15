@@ -5,7 +5,7 @@ body {
   font-family: 'Katana', sans-serif;
   margin: 0;
   padding: 0;
-  background: url('samurai2.jpg') no-repeat center center fixed;
+  background: url('images/samurai2.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #fff; /* Set text color to white for better contrast */
 }
@@ -109,7 +109,7 @@ h1 {
   background-size: cover;
 }
 .bg-1{
-  background-image: url("samurai4.jpg");
+  background-image: url("images/samurai4.jpg");
   width:100%;
   height:160vh;
 }
@@ -185,14 +185,14 @@ h1 {
 }
 
 .bgtext{
-  background-image: url("background2.jpg");
+  background-image: url("images/background2.jpg");
   width:100%;
   height: auto;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 .bg-3{
-  background-image: url("samurai3.jpg");
+  background-image: url("images/samurai3.jpg");
   width:100%;
   height:100vh;
 }
