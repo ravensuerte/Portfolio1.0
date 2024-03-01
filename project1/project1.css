@@ -15,4 +15,18 @@ body {
     width: 100%;
     border-radius: 5px;
   }
-  
+  .goback-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .goback-btn:hover {
+    background-color: #45a049;
+    color: white;
+  }

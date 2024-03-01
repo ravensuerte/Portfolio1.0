@@ -135,6 +135,8 @@ h1 {
 .card img {
   width: 100%;
   border-radius: 5px;
+  height: 50%;
+  padding-top:20px ;
 }
 
 .card h2 {
@@ -144,12 +146,13 @@ h1 {
 }
 .card h2 a{
   color: rgb(241, 0, 0);
-  
+  font-size: 35px;
 }
 
 .card p {
   margin-top: 10px;
-  color: darkgoldenrod;
+  color: gold;
+  font-size: 25px;
 }
 
 /* Media Query for Small Screens */
@@ -158,8 +161,8 @@ h1 {
       grid-template-columns: 1fr; /* Change to a single column for small screens */
   }
   .card{
-      height: 200px;
-      width: 300px;
+      height: 210px;
+      width: 330px;
   }
   .card img {
     width: none;
@@ -170,10 +173,14 @@ h1 {
     font-size: 20px;
     margin-top: 10px;
   }
+  .card h2 a{
+    font-size: 20px;
+    margin-top: 10px;
+  }
   
   .card p {
     margin-top: 10px;
-    color: #555;
+    color: goldenrod;
     font-size: 20px;
   }
   .bg-1{
@@ -185,6 +192,9 @@ h1 {
   }
   .logo{
     font-size: 25px;
+  }
+  .navbar a{
+    font-size: 13px;
   }
 }
 
