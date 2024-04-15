@@ -9,6 +9,15 @@ body {
   background-size: cover;
   color: #fff; /* Set text color to white for better contrast */
 }
+.more{
+  padding: 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  background-color: rgba(0,0,0,0.3);
+  color: red;
+  transition: color 0.3s ease;
+  font-family: 'Ninja Naruto', sans-serif;
+}
 
 .logo{
   text-align: left;
